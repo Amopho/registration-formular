@@ -16,3 +16,16 @@ form {
   width: 33%;
   height: 30%;
 }
+
+.draw {
+  background-color: white;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: 2px lightgray solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: lightgray;
+  font-weight: bolder;
+}
