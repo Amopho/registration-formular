@@ -13,12 +13,16 @@ body {
 form {
   margin: 10% auto;
   border: 2px red dashed;
-  width: 33%;
-  height: 30%;
+  width: 70%;
+  height: 45%;
 }
 
 .buttons {
   width: 20rem;
+  border: 2px red dashed;
+}
+
+.buttons::after {
 }
 
 .buttons button {
