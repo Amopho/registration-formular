@@ -1,2 +1,18 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+form {
+  margin: 25% auto;
+  border: 2px red dashed;
+  width: 33%;
+  height: 30%;
 }

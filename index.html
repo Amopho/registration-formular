@@ -9,5 +9,43 @@
     <link rel="icon" href="./img/icon.png" />
     <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css" />
   </head>
-  <body></body>
+  <body>
+    <form action="index.js" method="GET">
+      <fieldset>
+        <legend>Buttons</legend>
+        <button class="button2">
+          <a href="https://accounts.google.com/Login">Google + login</a>
+        </button>
+      </fieldset>
+      <fieldset>
+        <legend>Sign in with</legend>
+        <input type="text" name="name" placeholder="" id="1" />
+        <input
+          type="text"
+          name="lastName"
+          placeholder="Your last name"
+          id="2"
+        />
+        <input type="datetime" name="bDay" id="3" />
+        <input type="submit" value="Send" />
+      </fieldset>
+      <section class="toggle">
+        <label class="toggle-lable">Register</label>
+        <label class="switch">
+          <input
+            type="button"
+            name="registerNow"
+            value="Register now"
+            class="register-button"
+          />
+          <input
+            type="button"
+            name="forgotten"
+            value="Forgotten?"
+            class="forgotten-button"
+          />
+        </label>
+      </section>
+    </form>
+  </body>
 </html>
