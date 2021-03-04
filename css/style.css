@@ -1,10 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  border: 2px red dashed;
 }
 
-form {
-  width: 300px;
-  height: 200px;
+.container {
+  width: 500px;
+  height: 325px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +16,9 @@ form {
 .buttons {
   width: 20rem;
   border: 2px red dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttons::after {
