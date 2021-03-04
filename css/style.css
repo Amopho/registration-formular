@@ -12,12 +12,11 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  border: 2px red dashed;
 }
 
 main {
   border: 1px black solid;
-  width: 1000px;
+  width: 500px;
   height: 330px;
   display: flex;
   justify-content: center;
@@ -88,47 +87,42 @@ ul {
   align-self: flex-end;
 }
 
-/* footer {
-  border: 1px solid red;
-  display: absolute;
-} */
-
-footer {
-  width: 500px;
-  height: 200px;
-  position: flex;
-
+.link1 {
+  align-self: flex-end;
+  margin: 5px;
 }
 
-.link1 {
-  align-self: flex-start;
+.link2 {
+  align-self: flex-end;
+  margin: 5px;
 }
 
 .register {
-  position: relative;
-  top: 180px;
+  position: absolute;
+  top: 650px;
   border: 2px red dashed;
   width: 500px;
   height: 30px;
-  display: inline;
-  align-items: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .register a {
   font-weight: bolder;
   border: none;
-  font-size: 10px;
+  font-size: 12px;
   text-decoration: none;
   border: 2px black dashed;
-  
+  color: rgb(104, 145, 206);
 }
 
 .line2 {
   /* width: 3rem; */
-  height: 10px;
+  height: 18px;
   border-left: 2px solid lightgray;
-  position: relative;
-  left: 1.5rem;
+  align-self: center;
+  /* left: 1.5rem; */
 
 /* div[class="container"]::after {
   content: "😎";
