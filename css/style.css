@@ -1,11 +1,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   border: 2px red dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  width: 500px;
-  height: 325px;
+  width: 620px;
+  height: 330px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +17,7 @@ body {
 }
 
 .buttons {
-  width: 20rem;
+  width: 300px;
   border: 2px red dashed;
   display: flex;
   justify-content: center;
@@ -24,11 +27,15 @@ body {
 .buttons::after {
 }
 
-.buttons button {
-  width: 15rem;
-  height: 3rem;
+.buttons {
+  width: 200px;
+  height: 50px;
   border: 2px red dashed;
-  margin: 0.5rem;
+  margin: 2px;
+  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .line {
@@ -56,4 +63,10 @@ body {
   justify-content: center;
   color: lightgray;
   font-weight: bolder;
+}
+
+.register {
+  position: fixed;
+  top: 300px;
+  border: 2px red dashed;
 }
