@@ -79,6 +79,13 @@ body {
   text-decoration: none;
 }
 
+.line2 {
+  /* width: 3rem; */
+  height: 10px;
+  border-left: 2px solid lightgray;
+  position: relative;
+  left: 1.5rem;
+
 /* div[class="container"]::after {
   content: "😎";
 } */
