@@ -27,10 +27,9 @@ ul {
 }
 
 .buttons {
-  width: 300px;
+  width: 400px;
   height: 330px;
   border: 2px red dashed;
-  margin: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,22 +37,20 @@ ul {
 
 .container button {
   height: 50px;
-  width: px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 150px;
+  margin: 20px;
 }
 
 .line {
   /* width: 3rem; */
-  height: 6rem;
+  height: 6.75rem;
   border-left: 2px solid lightgray;
   position: relative;
   left: 1.5rem;
 }
 
 .or-drawing {
-  height: 15rem;
+  height: 16.5rem;
   width: 3rem;
   border: 2px red dashed;
 }
@@ -73,14 +70,17 @@ ul {
 
 .form {
   border: 2px red dashed;
-  width: 300px;
+  width: 600px;
+  height: 330px;
+  margin: 20px;
 }
 
 .register {
+  align-items: center;
   position: relative;
-  top: 190px;
+  top: 180px;
   border: 2px red dashed;
-  width: 620px;
+  width: 800px;
   height: 30px;
 }
 
@@ -89,6 +89,7 @@ ul {
   border: none;
   font-size: 10px;
   text-decoration: none;
+  
 }
 
 .line2 {
