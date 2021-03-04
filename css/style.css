@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -11,23 +12,32 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  border: 2px red dashed;
 }
 
-.container {
-  width: 620px;
+main {
+  border: 1px black solid;
+  width: 1000px;
   height: 330px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px red dashed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border: 2px blue dashed;
 }
 
 ul {
   list-style: none;
+  border: 2px red dashed;
 }
 
 .buttons {
-  width: 400px;
+  width: 45%;
   height: 330px;
   border: 2px red dashed;
   display: flex;
@@ -39,6 +49,7 @@ ul {
   height: 50px;
   width: 150px;
   margin: 20px;
+  border: 2px red dashed;
 }
 
 .line {
@@ -68,20 +79,39 @@ ul {
   font-weight: bolder;
 }
 
+
+
 .form {
   border: 2px red dashed;
-  width: 600px;
+  width: 45%;
   height: 330px;
-  margin: 20px;
+  align-self: flex-end;
+}
+
+/* footer {
+  border: 1px solid red;
+  display: absolute;
+} */
+
+footer {
+  width: 500px;
+  height: 200px;
+  position: flex;
+
+}
+
+.link1 {
+  align-self: flex-start;
 }
 
 .register {
-  align-items: center;
   position: relative;
   top: 180px;
   border: 2px red dashed;
-  width: 800px;
+  width: 500px;
   height: 30px;
+  display: inline;
+  align-items: block;
 }
 
 .register a {
@@ -89,6 +119,7 @@ ul {
   border: none;
   font-size: 10px;
   text-decoration: none;
+  border: 2px black dashed;
   
 }
 
