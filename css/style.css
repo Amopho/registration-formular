@@ -24,9 +24,9 @@ body {
   align-items: center;
 }
 
-button {
+.container button {
   height: 50px;
-  width: 200px;
+  width: px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,17 +59,26 @@ button {
   font-weight: bolder;
 }
 
+.form {
+  border: 2px red dashed;
+  width: 300px;
+}
+
 .register {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: 190px;
   border: 2px red dashed;
   width: 620px;
+  height: 30px;
 }
 
-div[class="container"]::after {
+.register a {
+  font-weight: bolder;
+  border: none;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+/* div[class="container"]::after {
   content: "😎";
-}
-
-div[class="container"]::before {
-  content: "💪🏻";
-}
+} */
