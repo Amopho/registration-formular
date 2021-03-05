@@ -28,6 +28,7 @@ main {
   justify-content: center;
   /* align-items: center; */
   border: 2px blue dashed;
+  margin-top: 20px ;
 }
 
 ul {
@@ -44,19 +45,34 @@ ul {
   align-items: center;
 }
 
+
+
 .container button {
   height: 50px;
-  width: 150px;
+  width: 200px;
   margin: 20px;
   border: 2px red dashed;
+  font-size: 16px;
+  letter-spacing: 0.75px;
+}
+
+.button1 {
+  background-color: #3b5998;
+}
+
+.button1 a {
+  color: aliceblue;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 
 .line {
   /* width: 3rem; */
-  height: 6.75rem;
+  height: 6rem;
   border-left: 2px solid lightgray;
   position: relative;
   left: 1.5rem;
+  
 }
 
 .or-drawing {
@@ -117,12 +133,23 @@ ul {
   color: rgb(104, 145, 206);
 }
 
+.line-soc {
+  height: 18px;
+  border-left: 2px #354a77 solid ;
+  align-self: center;
+  left: 1.5rem;
+  }
+
 .line2 {
   /* width: 3rem; */
   height: 18px;
   border-left: 2px solid lightgray;
   align-self: center;
   /* left: 1.5rem; */
+
+
+
+
 
 /* div[class="container"]::after {
   content: "😎";
